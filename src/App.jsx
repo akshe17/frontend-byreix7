@@ -3,10 +3,9 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/frontend-byreix7">
       <Routes>
         <Route path="/" element={<Home />} />
-     
       </Routes>
     </BrowserRouter>
   );
